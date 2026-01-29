@@ -977,3 +977,23 @@ footer .footer-copyright .footer-copyright-wrapper{
         padding: 30px 80px;
     }
 }
+
+@media(max-width:524px){
+
+    .hero .video-wrapper video {
+        margin-top: 100px;
+        margin-left: -20px;
+        width: 150%;
+    }
+
+    .portfolio {
+        padding: 30px 0;
+    }
+
+    .bcta-content a {
+        font-size: 1.5rem;
+        padding: 30px 40px;
+    }
+
+}
+
