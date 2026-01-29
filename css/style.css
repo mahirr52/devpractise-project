@@ -767,6 +767,13 @@ footer .footer-copyright .footer-copyright-wrapper{
         padding: 10px 0;
     }
 
+    .hero .video-wrapper {
+        z-index: 0;
+        width: 150%;
+        height: 80vh;
+        overflow: hidden;
+    }
+
     .blog-items{
         gap: 40px;
     }
@@ -810,6 +817,11 @@ footer .footer-copyright .footer-copyright-wrapper{
     .hero .hero-content p{
         font-size: 1.2rem;
         padding: 0 50px;
+    }
+
+    .hero .video-wrapper {
+        z-index: 0;
+        width: 150%;
     }
 
     .portfolio-header .portfolio-title{
@@ -858,6 +870,17 @@ footer .footer-copyright .footer-copyright-wrapper{
 @media(max-width:767px){
     .container {
         padding: 0 10%;
+    }
+
+    .hero .video-wrapper {
+        width: 100%;
+
+    }
+
+    .hero .video-wrapper video {
+        margin-top: 100px;
+        margin-left: -180px;
+        width: 150%;
     }
 
     .hero .hero-content h1 {
@@ -951,6 +974,6 @@ footer .footer-copyright .footer-copyright-wrapper{
 
     .bcta-content a{
         font-size: 1.6rem;
-        padding: 30px 100px;
+        padding: 30px 80px;
     }
 }
